@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "minh123",
+      "email": "minh@gmail.com",
+      "phone": "0988888888",
+      "password": "123456",
+      "full_name": "Nguyễn Văn Minh",
+      "avatar": "https://i.pravatar.cc/300?img=12"
+    }
+  ],
+
+  "wallets": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "Ví tiền mặt",
+      "type": "cash",
+      "balance": 2500000,
+      "currency": "VND",
+      "color": "#0D6EFD",
+      "icon": "wallet",
+      "is_default": 1
+    },
+
+    {
+      "id": 2,
+      "user_id": 1,
+      "name": "MoMo",
+      "type": "ewallet",
+      "balance": 1800000,
+      "currency": "VND",
+      "color": "#E91E63",
+      "icon": "account_balance_wallet",
+      "is_default": 0
+    },
+
+    {
+      "id": 3,
+      "user_id": 1,
+      "name": "Vietcombank",
+      "type": "bank",
+      "balance": 12500000,
+      "currency": "VND",
+      "color": "#00C853",
+      "icon": "account_balance",
+      "is_default": 0
+    }
+  ],
+
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ăn uống",
+      "type": "expense",
+      "icon": "restaurant",
+      "color": "#FF9800"
+    },
+
+    {
+      "id": 2,
+      "name": "Di chuyển",
+      "type": "expense",
+      "icon": "directions_car",
+      "color": "#03A9F4"
+    },
+
+    {
+      "id": 3,
+      "name": "Mua sắm",
+      "type": "expense",
+      "icon": "shopping_bag",
+      "color": "#9C27B0"
+    },
+
+    {
+      "id": 4,
+      "name": "Lương",
+      "type": "income",
+      "icon": "payments",
+      "color": "#4CAF50"
+    }
+  ],
+
+  "transactions": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "wallet_id": 1,
+      "category_id": 1,
+      "amount": 50000,
+      "type": "expense",
+      "note": "Ăn sáng",
+      "transaction_date": "2026-05-08T07:30:00"
+    },
+
+    {
+      "id": 2,
+      "user_id": 1,
+      "wallet_id": 2,
+      "category_id": 2,
+      "amount": 120000,
+      "type": "expense",
+      "note": "Đổ xăng",
+      "transaction_date": "2026-05-08T09:00:00"
+    },
+
+    {
+      "id": 3,
+      "user_id": 1,
+      "wallet_id": 3,
+      "category_id": 4,
+      "amount": 12000000,
+      "type": "income",
+      "note": "Lương tháng 5",
+      "transaction_date": "2026-05-08T08:00:00"
+    }
+  ],
+
+  "budgets": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "category_id": 1,
+      "wallet_id": 1,
+      "amount": 3000000,
+      "spent_amount": 850000,
+      "period_type": "monthly",
+      "period_start": "2026-05-01",
+      "period_end": "2026-05-31"
+    }
+  ],
+
+  "goals": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "Mua Laptop",
+      "target_amount": 25000000,
+      "current_amount": 8500000,
+      "deadline": "2026-12-31",
+      "status": "active"
+    }
+  ],
+
+  "receipts": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "image_path": "https://picsum.photos/400",
+      "ocr_text": "Highlands Coffee 85.000 VND",
+      "merchant_name": "Highlands Coffee",
+      "detected_amount": 85000,
+      "receipt_date": "2026-05-08T10:00:00"
+    }
+  ],
+
+  "notifications": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "Cảnh báo ngân sách",
+      "message": "Bạn đã dùng 80% ngân sách ăn uống",
+      "is_read": 0
+    }
+  ]
+}
