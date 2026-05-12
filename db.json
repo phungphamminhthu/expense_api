@@ -164,5 +164,16 @@
       "message": "Bạn đã dùng 80% ngân sách ăn uống",
       "is_read": 0
     }
-  ]
+  ],
+
+  "otps": [
+  {
+    "id": 1,
+    "user_id": 1,
+    "code": "123456",
+    "expires_at": "2026-05-12T14:45:00",
+    "is_used": 0
+  }
+]
+
 }
