@@ -162,6 +162,7 @@
       "user_id": 1,
       "title": "Cảnh báo ngân sách",
       "message": "Bạn đã dùng 80% ngân sách ăn uống",
+      "time": "5 phút trước",
       "is_read": 0
     }
   ],
