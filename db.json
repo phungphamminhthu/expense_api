@@ -150,13 +150,13 @@
 
   "receipts": [
     {
-      "id": 1,
       "user_id": 1,
-      "image_path": "https://picsum.photos/400",
+      "transaction_id": null,
+      "image_path": "receipt_001.jpg",
       "ocr_text": "Highlands Coffee 85.000 VND",
       "merchant_name": "Highlands Coffee",
       "detected_amount": 85000,
-      "receipt_date": "2026-05-08T10:00:00"
+      "receipt_date": "2026-05-08T10:00:00.000Z"
     }
   ],
 
