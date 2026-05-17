@@ -52,6 +52,7 @@
   "categories": [
     {
       "id": 1,
+      "user_id": 1,
       "name": "Ăn uống",
       "type": "expense",
       "icon": "restaurant",
@@ -60,6 +61,7 @@
 
     {
       "id": 2,
+      "user_id": 1,
       "name": "Di chuyển",
       "type": "expense",
       "icon": "directions_car",
@@ -68,6 +70,7 @@
 
     {
       "id": 3,
+      "user_id": 1,
       "name": "Mua sắm",
       "type": "expense",
       "icon": "shopping_bag",
@@ -76,6 +79,7 @@
 
     {
       "id": 4,
+      "user_id": 1,
       "name": "Lương",
       "type": "income",
       "icon": "payments",
