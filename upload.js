@@ -1,7 +1,6 @@
 const express = require('express');
 const multer = require('multer');
 const path = require('path');
-
 const router = express.Router();
 
 const storage = multer.diskStorage({
@@ -17,4 +16,4 @@ router.post('/upload', upload.single('file'), (req, res) => {
   res.json({ url: fileUrl });
 });
 
-module.exports = router; // phải export đúng
+module.exports = router;
